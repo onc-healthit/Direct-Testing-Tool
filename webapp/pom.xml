@@ -66,11 +66,6 @@
 			<artifactId>direct</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>gov.nist.healthcare.ttt</groupId>
-			<artifactId>xdr</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 
 		<!-- swagger for documenting the api -->
 		<!--<dependency> -->
