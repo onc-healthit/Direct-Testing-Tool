@@ -37,7 +37,7 @@ public class DatabaseConnection {
      * Creates a new instance of JdbcConnection
      *
      * @param config
-     * @throws 
+     * @throws
      */
     public DatabaseConnection(Configuration config) throws DatabaseException {
         this.setConfig(config);
@@ -50,21 +50,21 @@ public class DatabaseConnection {
             Class.forName("com.mysql.jdbc.Driver");
 
             String url = null;
-            url = "jdbc:mysql://" + this.getConfig().getDatabaseHostname() + "/" + this.getConfig().getDatabaseName() + "?autoReconnect=true";
+            url = "jdbc:mysql://" + this.getConfig().getDatabaseHostname() + "/" + this.getConfig().getDatabaseName() + "?autoReconnect=true&amp;useSSL=false";
 
             // System.out.println("Connecting to mysql on url " + url);
 
             if (this.getConfig().getDatabaseUsername() != null) {
                 con = DriverManager.getConnection(url, this.getConfig().getDatabaseUsername(), this.getConfig().getDatabasePassword());
             } else {
-                con = DriverManager.getConnection(url);                
+                con = DriverManager.getConnection(url);
             }
             stmt = con.createStatement();
             successfulConnection = true;
 
         } catch (Exception e) {
             e.printStackTrace();
-            
+
             throw new DatabaseException(e.getMessage());
 
         }
@@ -112,7 +112,7 @@ public class DatabaseConnection {
        boolean bo = false;
        bo = stmt.execute(sql);
        return bo;
-   }    
+   }
     /**
      *
      * @param sql
@@ -169,12 +169,12 @@ public class DatabaseConnection {
     public void setConfig(Configuration config) {
         this.config = config;
     }
-    
+
     public static void main(String[] args) {
-        
-        
+
+
         String test = "hello ' world";
         System.out.println(makeSafe(test));
     }
-    
+
 }
