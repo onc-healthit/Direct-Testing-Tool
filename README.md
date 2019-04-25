@@ -72,12 +72,14 @@ NOTE: Text in ***Italicized Bold*** are specific to your local install directory
 
 >>> mvn clean install -DskipTests
 
->> **First Run**
+**First Run**
+
 ![install_3](https://user-images.githubusercontent.com/20687947/56751207-869ea080-6753-11e9-867b-4e8d87673795.png)
 
 ![install_5](https://user-images.githubusercontent.com/20687947/56751227-90280880-6753-11e9-9ca3-41f945586960.png)
 
->> **Second Run**
+**Second Run**
+
 
 ![install_6](https://user-images.githubusercontent.com/20687947/56751231-928a6280-6753-11e9-9984-a7e46960a4d9.png)
 
