@@ -63,7 +63,7 @@ NOTE: Text in ***Italicized Bold*** are specific to your local install directory
 >>> a. https://github.com/siteadmin/Direct-Testing-Tool
 >>> b. You should see the following structure
  
->>> ![install_2](https://user-images.githubusercontent.com/20687947/56751203-84d4dd00-6753-11e9-98e0-7e7a36b1a88c.png)
+![install_2](https://user-images.githubusercontent.com/20687947/56751203-84d4dd00-6753-11e9-98e0-7e7a36b1a88c.png)
 
 >> 2. Compile code
 >>> Eg: if you download the code to ***C:\testing\dtt***
@@ -75,11 +75,11 @@ NOTE: Text in ***Italicized Bold*** are specific to your local install directory
 >> **First Run**
 >>>	![install_3](https://user-images.githubusercontent.com/20687947/56751207-869ea080-6753-11e9-867b-4e8d87673795.png)
 
->>>	![install_5](https://user-images.githubusercontent.com/20687947/56751227-90280880-6753-11e9-9ca3-41f945586960.png)
+![install_5](https://user-images.githubusercontent.com/20687947/56751227-90280880-6753-11e9-9ca3-41f945586960.png)
 
 >> **Second Run**
 
->>> ![install_6](https://user-images.githubusercontent.com/20687947/56751231-928a6280-6753-11e9-9984-a7e46960a4d9.png)
+![install_6](https://user-images.githubusercontent.com/20687947/56751231-928a6280-6753-11e9-9984-a7e46960a4d9.png)
 
 5.	Packages
 >> Above steps will create a target folder under webapp directory and will have the jar file to run the application.
@@ -97,7 +97,7 @@ NOTE: Text in ***Italicized Bold*** are specific to your local install directory
 
 >>> f. java -jar webapp-0.0.1-SNAPSHOT.jar.
 
->>> ![install_7](https://user-images.githubusercontent.com/20687947/56751235-93bb8f80-6753-11e9-9a56-3545e7eff4d2.png)
+![install_7](https://user-images.githubusercontent.com/20687947/56751235-93bb8f80-6753-11e9-9a56-3545e7eff4d2.png)
 
 >>> Once you see the “Started Application” message
 
@@ -107,29 +107,29 @@ NOTE: Text in ***Italicized Bold*** are specific to your local install directory
 
 >>> you should see the application running.
 
->>> ![install_8](https://user-images.githubusercontent.com/20687947/56751239-94ecbc80-6753-11e9-8bfa-a5b9960842cc.png)
+![install_8](https://user-images.githubusercontent.com/20687947/56751239-94ecbc80-6753-11e9-8bfa-a5b9960842cc.png)
 
 >> 2. Edit properties
 >>> a) Change version number, release date.
 >>>> Please edit ***config.properties*** file to change the version number and release date.
 
->>>> ![install_9](https://user-images.githubusercontent.com/20687947/56751241-961de980-6753-11e9-8222-1266e145f08d.png)
+![install_9](https://user-images.githubusercontent.com/20687947/56751241-961de980-6753-11e9-8222-1266e145f08d.png)
 
 >>> b) Change Inquires or question email and googlegroup address.
 >>>> Please edit ***applicaiton.properties*** file to change the Inquires or question email and googlegroup address.
 
->>>> ![install_10](https://user-images.githubusercontent.com/20687947/56751253-9c13ca80-6753-11e9-9c80-2b5d75bbb77d.png)
+![install_10](https://user-images.githubusercontent.com/20687947/56751253-9c13ca80-6753-11e9-9c80-2b5d75bbb77d.png)
 
 >>> c) Change Announcements content.
 >>>> Please edit ***announcements.txt*** file to change content of Announcements
 
->>>> ![install_11](https://user-images.githubusercontent.com/20687947/56751257-9d44f780-6753-11e9-925e-6de22ba09814.png)
+![install_11](https://user-images.githubusercontent.com/20687947/56751257-9d44f780-6753-11e9-925e-6de22ba09814.png)
 
->>>> ![install_12](https://user-images.githubusercontent.com/20687947/56751260-a0d87e80-6753-11e9-861c-f9300fe3c696.png)
+![install_12](https://user-images.githubusercontent.com/20687947/56751260-a0d87e80-6753-11e9-861c-f9300fe3c696.png)
 
 >>> d) Change Release Notes content.
 >>>> Please edit ***release_notes.txt*** file to change content of Release Notes
 
->>>> ![install_13](https://user-images.githubusercontent.com/20687947/56751264-a33ad880-6753-11e9-8a41-5091a6461cd6.png)
+![install_13](https://user-images.githubusercontent.com/20687947/56751264-a33ad880-6753-11e9-8a41-5091a6461cd6.png)
 
->>>> ![install_14](https://user-images.githubusercontent.com/20687947/56751270-a46c0580-6753-11e9-9907-d6bf4a3f3c6f.png)
+![install_14](https://user-images.githubusercontent.com/20687947/56751270-a46c0580-6753-11e9-9907-d6bf4a3f3c6f.png)
